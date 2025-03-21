@@ -6,7 +6,7 @@
 body {
 
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 header
 {
@@ -300,7 +300,7 @@ text-decoration: underline;
 /* all about the css of universty news */
 .universty-container
 {
-    
+    height: 580px;
     width: 96%;
     border: 1px solid black;
     margin-left: 15px;
@@ -309,10 +309,13 @@ text-decoration: underline;
 {
     display: flex;
     padding-top: 15px;
+    
 }
 .university-title h1  
 {
   font-size: 30px;
+  width: 250px;
+  padding-left: 10px;
 }
 .university-menu  button 
 {
@@ -324,22 +327,148 @@ text-decoration: underline;
 .university-menu h2 
 {
     font-size: 25px;
+    width: 350px;
+    padding-left: 10px;
 }
 .universty-subbox
 {
-    background: #c9de0e;
     width: 100%;
     height: 300px;
+    display: flex;
 }
-.univers-contents
+.universty-box img
 {
-    background: rgba(205, 210, 232, 0.941);
-    width: 500px;
-    float: right;
+
+  height: 120%;
+  width: 160%;
+  position: relative;
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.universty-box1 
+{
+  background: #E8EBF7;
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  margin-left: 10px;
+}
+.news-content {
+  padding: 15px;
+  margin-left: 250px;
+}
+
+.section-title {
+  font-size: 0.8em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.read-article {
+  display: inline-block;
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+  font-size: 0.9em;
+  border: 1px solid black;
+  margin-left: 100px;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+}
+.read-article:hover 
+{
+    background: #b8d5f5;
+    color: black;
+    transition: 2s;
+}
+/* all about the latest */
+
+.box-division 
+{
+ height: 400px;
+ width: 95%;
+ margin-left: 10px;
+ padding: 10px;
+ border: 1px solid black;
+ display: flex;
+}
+.box-division-contents 
+{
+    height: 90%;
+    width: 300px;
+    
+}
+.box-div-cont 
+{
+    font-family: sans-serif;
+  width: 250px; 
+  padding: 20px;
+}
+.box-div-cont .section-title {
+    font-size: 14px;
+    color: #888; 
+    margin-bottom: 10px;
+}
+.box-div-cont .headline-container { 
+    padding: 15px; 
+}
+.box-div-cont .headline {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333; 
+}
+.box-division-contents1 
+{
+    display: flex;
+    width: 100%;
+    padding: 10px 10px;
+    color: black;
+    height: 50%;
+    margin-left: 10px;
+}
+.box-division-contents1:hover 
+{
+    background: #6b737e;
+    transition: 1s;
+}
+.box-division-contents:hover 
+{
+    background: #6b737e;
+    transition: 1s;
+}
+.box-division-contents-imige img
+{
     height: 100%;
+    width: 400px;
+    
 }
-.univers-contents h1 
+.box-division-contents-detail12
 {
- color: gray;
- font-size: 20px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
 }
+.box-division-contents-detail12 .section-title {
+    font-size: 18px; 
+    color: #888; 
+    margin-bottom: 10px;
+}
+.box-division-contents-detail12 .headline
+ {
+font-size: 18px;
+line-height: 1.3; 
+color: #333; 
+ }
