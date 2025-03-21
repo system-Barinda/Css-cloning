@@ -229,3 +229,71 @@ margin-left: 65px;
     transition: 2s;
     cursor: pointer;
 }
+/* all about the footer  */
+  /* Top Dark Blue Navigation */
+.top-footer {
+            background-color: #0B2240;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 16px;
+}
+.top-footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+}
+.top-footer a:hover {
+     text-decoration: underline;
+}
+ /* Middle White Section */
+.middle-footer {
+            background-color: white;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            font-size: 14px;
+ }
+ .middle-footer img {
+ height: 50px;
+}
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .social-links a i {
+            margin-right: 5px;
+        }
+        .contact-info {
+            text-align: right;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Bottom Gray Section */
+.bottom-footer {
+ background-color: #e0e0e0;
+color: #333;
+text-align: center;
+padding: 15px 0;
+font-size: 14px;
+}
+.bottom-footer a {
+color: #333;
+text-decoration: none;
+margin: 0 15px;
+}
+.bottom-footer a:hover {
+text-decoration: underline;
+}
