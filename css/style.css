@@ -110,10 +110,22 @@ header .menu .submenu:hover
 .readmore 
 {
     height: 50px;
-    width: 100px;
-   left: 70%;
+    width: 200px;
+    left: 60%;
     position: relative;
-    top: 50px;
+    top: 0px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.readmore:hover 
+{
+    background: rgb(225, 224, 224);
+    color:black;
 }
 .submenu-imige img
 {
@@ -135,7 +147,6 @@ header .menu .submenu:hover
 {
    height: 80%;
    width: 80%;
-   border: 1px solid black;
    margin-top: 50px;
 }
 .container-all h1 
@@ -162,7 +173,6 @@ header .menu .submenu:hover
 {
    height: 80%;
    width: 100%;
-   border: 1px solid black;
    margin-top: 100px;
 }
 .div-sub1
@@ -184,7 +194,7 @@ margin-left: 65px;
 }
 .opputunity-conatainer
 {
-    border: 1px solid red;
+   
     height: 400%;
     width: 100%;
     background: #0a2342;
@@ -207,14 +217,13 @@ margin-left: 65px;
 }
 .opputunity-container-box .div-submainly1 
 {
-   height: 80%;
+   height: 200px;
    width: 80%;
-  
    margin-top: 4px; 
 }
 .researchAT 
 {
-    height: 15%;
+    height: 25%;
     width: 200px;
     margin-left: 60%;
     margin-top: 30px;
@@ -222,6 +231,7 @@ margin-left: 65px;
     border-radius: 10px;
     background: #0a2342;
     color: white;
+    font-size: 20px;
 }
 .researchAT:hover 
 {
@@ -312,22 +322,34 @@ text-decoration: underline;
 }
 .university-title h1  
 {
-  font-size: 30px;
+  font-size: 25px;
   width: 250px;
   padding-left: 10px;
+  color: gray;
 }
 .university-menu  button 
 {
-    margin-left: 70%;
+    margin-left: 60%;
     height: 50px;
     width:150px;
+    background: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
     
+    
+}
+.university-menu  button:hover 
+{
+    background: #DDE5ED;
 }
 .university-menu h2 
 {
     font-size: 25px;
     width: 350px;
     padding-left: 10px;
+    color: #000080;
 }
 .universty-subbox
 {
@@ -373,10 +395,9 @@ text-decoration: underline;
 
 .read-article {
   display: inline-block;
-  color: #007bff; /* Blue link color */
+  color: #007bff; 
   text-decoration: none;
   font-size: 0.9em;
-  border: 1px solid black;
   margin-left: 100px;
   height: 50px;
   width: 200px;
@@ -389,9 +410,9 @@ text-decoration: underline;
 }
 .read-article:hover 
 {
-    background: #b8d5f5;
+    background: #DDE5ED;
     color: black;
-    transition: 2s;
+    
 }
 /* all about the latest */
 
@@ -584,7 +605,7 @@ color: #333;
   {
     height: 600px;
     width: 100%;
-    border: 1px solid black;
+    
     display: flex;
   }
   .notreDame-box
@@ -615,4 +636,109 @@ color: #333;
     height: 91%;
     width: 98%;
     margin-top: 50px;
+  }
+  .university-event 
+  {
+    height: 600px;
+    width: 90%;
+    padding: 10px 10px;
+    margin: auto;
+  }
+  .university-event-title h1 
+  {
+    font-size: 20px;
+    color: gray;
+  }
+  .event-box-menu 
+  {
+    display: flex;
+    margin-top: 20px;
+  }
+  .event-box-menu h2 
+  {
+    font-size: 30px;
+    font-weight: 400px;
+    font-weight: bold;
+    color:#000080;
+  }
+  .event-box-menu button 
+  {
+    width: 200px;
+    height: 50px;
+    margin-left: 55%;
+    font-size: 15px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  .event-box-menu button:hover 
+  {
+    background: #D9E2EC;
+    transition: 1s;
+    opacity: 0.20px;
+  }
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .event-item {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .event-date {
+    width: 80px; 
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .month {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .day {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .event-details {
+    flex-grow: 1;
+    
+    height: 180px;
+    text-align: start;
+    justify-content: start;
+    flex-direction: column;
+    width: 100px;
+    position: relative;
+  }
+  .event-details:hover 
+  {
+    background: #D9E2EC;
+    border-bottom: 5px solid #c2c2c3;
+    transition: 1s;
+  }
+  
+  .event-title {
+    font-size: 2em;
+    margin-bottom: 5px;
+
+  }
+  
+  .event-time {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .icon::before {
+    content: "🕒";
+    margin-right: 5px;
   }
