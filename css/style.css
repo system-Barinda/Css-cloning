@@ -271,12 +271,17 @@ margin-left: 65px;
             text-align: center;
             padding: 15px 0;
             font-size: 16px;
+            height: 150px;
+            padding-top:10px;
 }
 .top-footer a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 20px;
             font-weight: 500;
+            margin-top: 20px;
+            position: relative;
+            top: 50px;
 }
 .top-footer a:hover {
      text-decoration: underline;
@@ -290,6 +295,7 @@ margin-left: 65px;
             align-items: center;
             padding: 20px;
             font-size: 14px;
+            height: 150px;
  }
  .middle-footer img {
  height: 50px;
@@ -322,11 +328,14 @@ color: #333;
 text-align: center;
 padding: 15px 0;
 font-size: 14px;
+height: 150px;
 }
 .bottom-footer a {
 color: #333;
 text-decoration: none;
 margin: 0 15px;
+position: relative;
+top: 50px;
 }
 .bottom-footer a:hover {
 text-decoration: underline;
